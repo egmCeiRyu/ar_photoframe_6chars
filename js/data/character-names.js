@@ -12,17 +12,13 @@
  * - mensagens relacionadas ao personagem
  */
 export const characterNames = {
-    4: "Akira Kurogane",
-    5: "Hikari Amatsuki",
-    6: "Ren Kazehaya",
-    7: "Yuna Shirogane",
-    8: "Kaien Homura",
-    9: "Aoi Mizuhara",
-    10: "Rei Tsukikage",
-    11: "Sora Kaminari",
+    // Personagens que exigem escanear a estampa/marker (1 a 4)
+    1: "Akira Kurogane",
+    2: "Hikari Amatsuki",
+    3: "Ren Kazehaya",
+    4: "Yuna Shirogane",
 
-    // Personagens gratuitos
-    12: "Tetsuya Hayakawa",
-    13: "Shingo Kisaragi",
-    14: "Hayato Kurosaki"
+    // Personagens gratuitos (5 e 6)
+    5: "Kaien Homura",
+    6: "Aoi Mizuhara"
 };

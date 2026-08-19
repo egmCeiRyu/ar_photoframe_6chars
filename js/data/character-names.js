@@ -13,12 +13,12 @@
  */
 export const characterNames = {
     // Personagens que exigem escanear a estampa/marker (1 a 4)
-    1: "Akira Kurogane",
-    2: "Hikari Amatsuki",
-    3: "Ren Kazehaya",
-    4: "Yuna Shirogane",
+    1: "Ryo Kurogane",     // homem
+    2: "Ren Kuroba",       // homem
+    3: "Sora Kaminari",    // homem
+    4: "Yuna Shirogane",   // mulher
 
     // Personagens gratuitos (5 e 6)
-    5: "Kaien Homura",
-    6: "Aoi Mizuhara"
+    5: "Kaito Homura",     // homem
+    6: "Mio Sakuraba"      // mulher
 };

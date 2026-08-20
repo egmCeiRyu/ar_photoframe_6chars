@@ -217,9 +217,7 @@ async function saveCharacterStamp(character) {
 
     if (checkError) {
         console.error("Stamp check error:", checkError);
-        showStampMessage("通信エラー");
-
-        openCharacterModal(character, false);
+        alert("通信エラーが発生しました。もう一度スキャンしてください。");
 
         return false;
     }
@@ -238,9 +236,7 @@ async function saveCharacterStamp(character) {
 
     if (insertError) {
         console.error("Stamp insert error:", insertError);
-        showStampMessage("保存エラー");
-
-        openCharacterModal(character, false);
+        alert("スタンプを保存できませんでした。もう一度スキャンしてください。");
 
         return false;
     }
